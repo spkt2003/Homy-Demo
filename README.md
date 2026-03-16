@@ -1,8 +1,7 @@
 <div align="center">
   <h1>🏡 Homy Demo</h1>
   <p><strong>Elderly Care Service Platform - Realistic Flow Simulation</strong></p>
-  
-  <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=2000&auto=format&fit=crop" alt="Elderly Care Service Preview" width="800" style="border-radius: 12px; margin-bottom: 20px;">
+  <img src="./img/Homy-demo.png" alt="Elderly Care Service Preview" width="800" style="border-radius: 12px; margin-bottom: 20px;">
 
   <p><em>Homy is a reliable and safe platform designed to connect families with qualified elderly caregivers. This repository contains an MVP prototype simulating the real-time interactions between a Client and a Caregiver.</em></p>
 </div>
@@ -52,10 +51,7 @@ To run this simulation locally, follow these steps:
 4. **Visit the application**:
    Open your browser and navigate to `http://localhost:5173`.
 
-## 📸 Showcase Information
-*Note: A placeholder professional Unsplash image was used for the banner. For production, you can replace it with a screenshot of the Dual-Screen UI by saving your screenshot as `preview.png` into the `public` folder and linking it.*
 
----
 <div align="center">
   <p>Built with ❤️ for accessible and reliable elderly care.</p>
 </div>
