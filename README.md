@@ -1,16 +1,61 @@
-# React + Vite
+<div align="center">
+  <h1>🏡 Homy Demo</h1>
+  <p><strong>Elderly Care Service Platform - Realistic Flow Simulation</strong></p>
+  
+  <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=2000&auto=format&fit=crop" alt="Elderly Care Service Preview" width="800" style="border-radius: 12px; margin-bottom: 20px;">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <p><em>Homy is a reliable and safe platform designed to connect families with qualified elderly caregivers. This repository contains an MVP prototype simulating the real-time interactions between a Client and a Caregiver.</em></p>
+</div>
 
-Currently, two official plugins are available:
+## ✨ Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Homy solves the complex challenge of managing in-home elderly care by providing a transparent, secure, and real-time synchronized platform. This interactive demo showcases the **Dual-Screen Experience**, allowing the visitor to experience the workflow from both the **Client (Family)** perspective and the **Caregiver (Partner)** perspective simultaneously.
 
-## React Compiler
+## 🚀 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📱 **Dual-Screen Simulation**: Experience the application flow side-by-side, watching state sync instantly between the Client and Caregiver interfaces.
+- 🧑‍⚕️ **Tiered Caregiver Selection**: Flexible service levels based on elderly needs:
+  - **Student**: Companionship and basic care.
+  - **Certified (NA/PN)**: Daily routine assistance.
+  - **Professional**: Bedridden patient handling.
+  - **Registered Nurse (RN)**: Specialized medical care.
+- 🔄 **Real-Time State Management**: Smooth transitions from requesting a caregiver, acceptance, checking-in, active duty, to checkout.
+- 🕒 **Live Care Logging**: Caregivers can update their status instantly (e.g., Check-in, Giving medication, Uploading photos) forming a transparent timeline for the family.
+- 🚨 **SOS Emergency Alerts**: Instant alert mechanism simulated to connect with 1669 (Emergency Medical Services) in case of critical situations.
+- 💳 **Escrow Payment Concept**: Simulates secure fund holding to ensure peace of mind for both parties.
 
-## Expanding the ESLint configuration
+## 🛠️ Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+## 💻 Getting Started
+
+To run this simulation locally, follow these steps:
+
+1. **Navigate to the project directory**:
+   ```bash
+   cd Homy-Demo
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Visit the application**:
+   Open your browser and navigate to `http://localhost:5173`.
+
+## 📸 Showcase Information
+*Note: A placeholder professional Unsplash image was used for the banner. For production, you can replace it with a screenshot of the Dual-Screen UI by saving your screenshot as `preview.png` into the `public` folder and linking it.*
+
+---
+<div align="center">
+  <p>Built with ❤️ for accessible and reliable elderly care.</p>
+</div>
